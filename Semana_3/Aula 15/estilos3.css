@@ -1,0 +1,36 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    background-color: antiquewhite;
+}
+
+div {
+    border: solid 1px black;
+    border: none;
+}
+
+#divHeader {
+    width: 100vw;
+    text-align: center;
+    height: 15vh;
+    background-color: grey;
+}
+
+#divMenu {
+    width: 100vw;
+    height: 5vh;
+    background-color: black;
+}
+
+#divCorpo {
+    width: 80vw;
+    height: 75vh;
+    background-color: aliceblue;
+    margin: 0 auto;
+}
+
+#divFooter {
+    width: 100vw;
+    height: 5vh;
+    background-color: lightslategray;
+}
