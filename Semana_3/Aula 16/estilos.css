@@ -1,0 +1,40 @@
+div.cinza {
+    width: 500px;
+    height: 500px;
+    background-color: lightgray;
+    position: fixed;
+    top: 150px;
+    left: 200px;
+    opacity: 0.5;
+}
+
+div.amarelo {
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+}
+
+div.azul {
+    position: absolute;
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    top: 200px;
+    left: 200px;
+}
+
+div.vermelho {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 400px;
+}
+
+div.verde {
+    background-color: green;
+    position: fixed;
+    bottom: 0;
+    width: 100vh;
+    height: 120px;
+}
