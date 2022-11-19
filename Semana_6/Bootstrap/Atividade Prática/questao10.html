@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+  <title>Questão 10</title>
+  <style>
+    @media print {
+      body {
+        margin: 2cm;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <p><a href="index.html">Voltar ao Índice</a></p>
+    <h1 class="display-2">Questão 10</h1>
+    <p class="lead">Usando classes do Bootstrap 5, complemente o resultado da questão anterior de forma que esse
+      enunciado e a primeira região do leiaute não sejam mostrados quando a página for impressa. Adicione também um
+      parágrafo com o texto "Fonte: meublog.com.br" que só deve ser mostrado ao imprimir a página.</p>
+    <hr>
+    <!-- FAZER AQUI -->
+    <div class="container-fluid container-lg">
+      <div class="row">
+        <div class="col-12 col-lg-3 bg-light d-print-none">
+          <h2 class="text-center p-3 fw-semibold text-lg-start">Meu Blog</h2>
+          <div class="row px-5 p-lg-3 fw-light text-center text-lg-start">
+            <p class="col-2 col-lg-12">Artigo 1 </p>
+            <p class="col-2 col-lg-12">Artigo 2 </p>
+            <p class="col-2 col-lg-12">Artigo 3 </p>
+            <p class="col-2 col-lg-12">Artigo 4 </p>
+            <p class="col-2 col-lg-12">Artigo 5 </p>
+            <p class="col-2 col-lg-12">Artigo 6 </p>
+          </div>
+        </div>
+        <div class="col-lg-9">
+          <h1 class="display-1">Meu Artigo</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores quisquam illum delectus animi. Cum commodi
+            minus voluptatibus repellat cumque numquam incidunt sit nulla placeat illo adipisci, modi sed quod
+            consequatur
+            nostrum quas a dolores ab eveniet quibusdam voluptatem, officia distinctio? Dolorum libero aliquam fuga
+            laudantium quos? Tempore, quidem vero cumque debitis voluptate sunt nesciunt esse hic veniam veritatis,
+            maxime
+            ea? Maiores voluptatem ducimus, accusantium amet assumenda autem quibusdam et commodi, recusandae fugiat
+            officiis aperiam dolores, cupiditate odio non nesciunt. Sint quod assumenda voluptate! Beatae omnis
+            voluptatibus quasi sequi doloremque similique, dolorem, inventore maiores eos modi commodi quam assumenda
+            nihil repellendus?
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores quisquam illum delectus animi. Cum commodi
+            minus voluptatibus repellat cumque numquam incidunt sit nulla placeat illo adipisci, modi sed quod
+            consequatur
+            nostrum quas a dolores ab eveniet quibusdam voluptatem, officia distinctio? Dolorum libero aliquam fuga
+            laudantium quos? Tempore, quidem vero cumque debitis voluptate sunt nesciunt esse hic veniam veritatis,
+            maxime
+            ea? Maiores voluptatem ducimus, accusantium amet assumenda autem quibusdam et commodi, recusandae fugiat
+            officiis aperiam dolores, cupiditate odio non nesciunt. Sint quod assumenda voluptate! Beatae omnis
+            voluptatibus quasi sequi doloremque similique, dolorem, inventore maiores eos modi commodi quam assumenda
+            nihil repellendus?
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores quisquam illum delectus animi. Cum commodi
+            minus voluptatibus repellat cumque numquam incidunt sit nulla placeat illo adipisci, modi sed quod
+            consequatur
+            nostrum quas a dolores ab eveniet quibusdam voluptatem, officia distinctio? Dolorum libero aliquam fuga
+            laudantium quos? Tempore, quidem vero cumque debitis voluptate sunt nesciunt esse hic veniam veritatis,
+            maxime
+            ea? Maiores voluptatem ducimus, accusantium amet assumenda autem quibusdam et commodi, recusandae fugiat
+            officiis aperiam dolores, cupiditate odio non nesciunt. Sint quod assumenda voluptate! Beatae omnis
+            voluptatibus quasi sequi doloremque similique, dolorem, inventore maiores eos modi commodi quam assumenda
+            nihil repellendus?
+          </p>
+          <p class="d-none d-print-block">
+            Fonte: meublog.com.br
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
