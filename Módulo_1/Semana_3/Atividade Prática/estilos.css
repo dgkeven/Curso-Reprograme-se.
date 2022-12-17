@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap%27');
+
+/*formatação de tag*/
+* {
+    margin: 0;
+}
+
+body {
+    background-color: #e5e5e5;
+}
+
+footer {
+    background-color: #343334;
+    color: #fff;
+    text-align: center;
+    padding: 50px;
+    margin: 0;
+}
+
+hr {
+    height: 7px;
+    background-color: #d5d5d5;
+    border: #d5d5d5;
+}
+
+table {
+    border: 1px solid #c4c4c4;
+}
+
+table td:nth-of-type(2) {
+    background-color: #B2C3B9;
+
+}
+
+/*formatação de id*/
+#conteiner {
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 150%;
+    font-family: montserrat;
+}
+
+#contato {
+    background-color: #898889;
+    padding: 20px;
+    color: white;
+}
+
+#nome {
+    width: 100%;
+    height: 50px;
+}
+
+#email {
+    width: 100%;
+    height: 50px;
+}
+
+#data {
+    width: 100%;
+    height: 50px;
+}
+
+#select {
+    width: 100%;
+    height: 50px;
+}
+
+#mensagem {
+    width: 100%;
+}
+
+/*formatação de classes*/
+
+.areaesquerda {
+    width: 15%;
+    margin: 0;
+    background-color: #fff;
+    display: inline-block;
+    padding: 1%;
+    position: fixed;
+    border-radius: 5px;
+    height: 700px;
+}
+
+.areaesquerda a {
+    text-decoration: none;
+    color: #646464;
+}
+
+.areadireita {
+    float: right;
+    width: 75%;
+    padding: 1%;
+    padding-bottom: 0;
+}
+
+.card1 {
+    width: 33%;
+    background-color: #fff;
+}
+
+.card2 {
+    width: 65%;
+    float: right;
+}
+
+.projetos {
+    margin-left: 20px;
+}
+
+.montserrat {
+    font-family: 'Montserrat';
+}
+
+.contrate {
+    text-decoration: none;
+    background-color: #343334;
+    color: white;
+    padding: 15px 20px;
+}
+
+.contrate:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border: 1px solid black;
+}
