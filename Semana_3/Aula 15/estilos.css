@@ -1,0 +1,47 @@
+h1 {
+    position: relative;
+    text-align: center;
+}
+
+h1:after {
+    content: " ";
+    background-image: linear-gradient(120deg, #b70deb, rgb(14, 12, 12));
+    width: 90%;
+    height: 2px;
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%) skew(-50deg);
+}
+
+.PAI {
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    display: inline-block;
+}
+
+#d1 {
+    width: 290px;
+    height: 110px;
+    padding: 10px;
+}
+
+#d2 {
+    width: 290px;
+    height: 110px;
+    border-left: solid 1px grey;
+    border-right: solid 1px grey;
+    padding: 10px;
+}
+
+#d3 {
+    width: 290px;
+    height: 110px;
+    padding: 10px;
+}
