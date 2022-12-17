@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+
+<body>
+    <h1>Formulário de Orçamento Pet Shop</h1>
+    <hr>
+    <form method="post" action="/contato/cotar">
+        <p>
+            <label for="txtNomedoDono">Nome do Dono</label><br>
+            <input type="text" name="NomedoDono" id="txtNomedoDono" placeholder="João Victor">
+        </P>
+
+        <fieldset>
+            <legend>Animal</legend>
+            <input type="radio" name="Cargo" id="rdCachorro" value="Ca">
+            <label for="rdCachorro">Cachorro</label><br>
+            <input type="radio" name="Cargo" id="rdCoelho" value="Co">
+            <label for="rdCoelho">Coelho</label>
+            <input type="radio" name="Cargo" id="rdGato" value="Ga">
+            <label for="rdGato">Gato</label><br>
+            <input type="radio" name="Cargo" id="rdPássaro" value="Pa">
+            <label for="rdPássaro">Pássaro</label>
+        </fieldset>
+        <p>
+            <label for="txtTipodeServiçosDesejados">Tipo de Serviços Desejado</label><br>
+            <input type="text" name="TipodeServiçosDesejados" id="txtTipodeServiçosDesejados">
+        </p>
+        <p>
+            <textarea name="Observações" id="txtObservações" cols="30" rows="10"></textarea>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+        </p>
+    </form>
+</body>
+
+</html>
