@@ -1,0 +1,74 @@
+{
+  "pessoas": [
+  {
+    "nome": "Filipe Vieira",
+    "idade": 32,
+    "sexo": "Masculino",
+    "endereço": "Avenida Brasil",
+    "nacionalidade": "Brasileiro"
+  },
+  {
+    "nome": "Lucas Almeida",
+    "idade": 25,
+    "sexo": "Masculino",
+    "endereço": "Rua das Araras",
+    "nacionalidade": "Americano"
+  },
+    {
+    "nome": "Patricia Mendes",
+    "idade": 20,
+    "sexo": "Feminino",
+    "endereço": "Alameda da Fraternidade",
+    "nacionalidade": "Brasileira"
+  },
+  {
+    "nome": "Luiz Carlos",
+    "idade": 19,
+    "sexo": "Masculino",
+    "endereço": "Rua da Esperança",
+    "nacionalidade": "Espanhol"
+  },
+      {
+    "nome": "Jean Willians",
+    "idade": 40,
+    "sexo": "Masculino",
+    "endereço": "Rua da Trégua",
+    "nacionalidade": "Brasileiro"
+  },
+  {
+    "nome": "Rogério Pedro",
+    "idade": 22,
+    "sexo": "Masculino",
+    "endereço": "Avenida Principal",
+    "nacionalidade": "Turco"
+  },
+    {
+    "nome": "Laís Almeida",
+    "idade": 20,
+    "sexo": "Feminino",
+    "endereço": "Rua Atlanta",
+      "nacionalidade": "Sueca"
+  },
+  {
+    "nome": "Luiza Mendes",
+    "idade": 19,
+    "sexo": "Feminino",
+    "endereço": "Rua da Cassia",
+    "nacionalidade": "Americana"
+  },
+        {
+    "nome": "Larissa Souza",
+    "idade": 25,
+    "sexo": "Feminino",
+    "endereço": "Rua dos Jacares",
+    "nacionalidade": "Brasileiro"
+  },
+  {
+    "nome": "Ingrid Amaral",
+    "idade": 28,
+    "sexo": "Feminino",
+    "endereço": "Rua do Cais",
+    "nacionalidade": "Brasileira"
+  },
+]
+}
