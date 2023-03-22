@@ -1,0 +1,14 @@
+{
+  "carros":[
+    {
+      "placa":"KJK-0230",
+      "nome":"New Civic",
+      "montadora":"Honda"
+    },
+    {
+      "placa":"IOJ-2323",
+      "nome":"Toro",
+      "montadora":"Fiat"
+    }
+  ]
+}
