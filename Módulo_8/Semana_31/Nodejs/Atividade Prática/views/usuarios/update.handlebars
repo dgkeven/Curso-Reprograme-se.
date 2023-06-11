@@ -1,0 +1,30 @@
+<h1 class="text-center my-3">Atualizar Usuário: {{usuarios.nome}}</h1>
+<form action="/usuarios/Update" method="post"">
+ <input type="hidden" name="id_usuario" value="{{usuarios.id_usuario}}" />
+ <div class="row w-50 d-block m-auto g-3">
+ <div class="col-12">
+ <label class="form-label" for="nome">Nome:</label>
+ <input
+ class="form-control"
+ type="text"
+ name="nome"
+ id="nome"
+ value="{{usuarios.nome}}"
+ />
+ </div>
+ <div class="col-12">
+ <label class="form-label" for="email">E-mail:</label>
+ <input
+ class="form-control"
+ type="text"
+ name="email"
+ id="email"
+ value="{{usuarios.email}}"
+ />
+ </div>
+ <div>
+ <input class="btn btn-primary my-3" type="submit" value="Atualizar usuário" 
+/>
+ </div>
+ </div>
+</form>
